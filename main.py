@@ -56,8 +56,4 @@ rbtn7.place(x=200, y=200)
 rbtn8 = Radiobutton(win, text='2024', variable=var2, value=3)
 rbtn8.place(x=200, y=250)
 
-btn1 = Button(win, text='Проверить', command=check)
-btn1.place(x=100, y=300)
-
-
 win.mainloop()
